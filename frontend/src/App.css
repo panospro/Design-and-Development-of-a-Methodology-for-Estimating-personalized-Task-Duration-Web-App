@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  padding: 20px;
+  width: 100%;
+  margin: 0;
+}
+
+.graphs-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* creates two columns */
+  gap: 20px; /* space between the graphs */
+  padding: 20px; /* optional: padding around the grid */
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  text-align: left;
+}
+
+label, p {
+  display: block;
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="file"], button, form input[type="file"] {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="file"], form input[type="file"] {
+  border: 1px solid #ddd;
+}
+
+button {
+  background-color: #007BFF; /* unified color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #0056b3; /* hover effect */
+}
+
+h1, p {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555; 
+}

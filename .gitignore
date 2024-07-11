@@ -1,0 +1,5 @@
+
+/frontend/node_modules
+/utils/__pycache__
+best_model.pkl
+/node_modules

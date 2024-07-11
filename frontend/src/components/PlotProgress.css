@@ -1,0 +1,35 @@
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto; /* Center horizontally */
+    font-family: Arial, sans-serif;
+    white-space: nowrap; /* Prevent text from breaking into multiple lines */
+}
+
+.pagination-controls button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 3px;
+    margin: 0 3px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.pagination-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination-controls button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+.pagination-controls span {
+    font-size: 16px;
+    color: #333;
+    margin: 0 10px; /* Add some space around the text */
+}
